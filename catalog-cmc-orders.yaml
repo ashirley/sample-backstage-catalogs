@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-cmc-orders
+  description: Sample cmc-orders catalog which conntainns other details
+spec:
+  type: service
+  lifecycle: production
+  owner: customer
+  providesApis:
+    - sample-cmc-orders

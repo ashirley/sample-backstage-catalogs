@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sample-cmc-orders
+  description: Sample cmc-orders API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: customer
+  definition:
+    $text: http://cmc-orders.service.eu-west-1.production.deveng.systems/v2/api-docs
