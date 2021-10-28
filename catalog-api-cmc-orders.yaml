@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: customer
   definition:
-    $text: http://dev-cmc-orders.service.eu-west-1.dev.deveng.systems/v3/api-docs
+    $text: https://dev-cmc-orders.service.eu-west-1.dev.deveng.systems/v3/api-docs
